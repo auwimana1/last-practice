@@ -6,7 +6,7 @@ pipeline{
     }
 
     stages{
-        stage("build image"){
+        stage("build image1"){
             steps{
                 script{
                     sh "docker build -t niyela:${params.IMAGE} ."
